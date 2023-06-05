@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&family=Source+Sans+Pro&display=swap');
+@font-face {
+  font-family: 'AnderfontFree';
+  src: url("./assets/AnderfontFree.otf") format('opentype');
+}
+
+
+body{
+  background-color: #000 !important;
+}
+
+.main{
+  background-image: url('./assets/image\ 25.png');
+  height: max-content;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 92px;
+}
+
+.rounded-side{
+  border-radius: 6em !important;
+}
+
+.t-0{top: 0}
+.tr-0{ top: 0; right: 0;}
+.tl-0{ top: 0; left: 0; }
+.bl-0{ bottom: 0; left: 0;}
+.br-0{ bottom: 0; right: 0;}
+
+.handwritten-text{
+  margin-right: 34px;
+  margin-top: 26px;
+  transform: rotate(-20deg);
+  height: max-content;
+  bottom: 0;
+  font-family: 'AnderfontFree' ;
+  font-size: 48px;
+}
+
+.big-circle-logo{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.small-circle-logo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.banner-title{
+  width: 750px;
+}
+
+.banner-desc{
+  width: 220px;
+  word-wrap: break-word;
+}
+
+.credit-card{
+  border-radius: 1em;
+}
+
+.credit-card img{
+  width: 60px;
+}
+
+.credit-card span img{
+  margin-right: 4px !important;
+  width: 14px;
+}
+
+.main-cc-bg{
+  background-image: url('./assets/main-cc.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 480px;
+  height: 260px;
+}
+
+.orange-cc-bg{
+  background-image: url('./assets/cc-orange.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 250px;
+  height: 160px;
+}
+
+.blue-cc-bg{
+  background-image: url('./assets/cc-blue.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 250px;
+  height: 160px;
+}
+
+.yellow-cc-bg{
+  background-image: url('./assets/cc-yellow.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 160px;
+  height: 140px;
+}
+
+.blue-second-cc-bg{
+  background-image: url('./assets/cc-blue-1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 160px;
+  height: 140px;
+}
+
+.red-cc-bg{
+  background-image: url('./assets/cc-red.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 160px;
+  height: 140px;
+}
+
+.about-card{
+  width: 380px;
+  padding: 24px 18px;
+  background: linear-gradient(180deg, #222731 0%, #0D0611 100%);
+  border-radius: 2em;
+}
+
+.about-btn{
+  background: radial-gradient(150.76% 1028.04% at -11.17% 0%, #8CF091 0%, #76CDFB 56.25%, #CAB4FE 84.37%, #FDFDFD 100%);
+  border-radius: 50% !important;
+  border: none !important;
+}
+
+.feature-wrapper{
+  background: linear-gradient(179.92deg, rgba(255, 255, 255, 0.09) -0.01%, rgba(255, 255, 255, 0) 81.63%);
+  border-radius: 2em;
+  border: 1px solid #FFF;
+}
+
+.sum-wrapper{
+  position: absolute;
+  top: 18px;
+  left: 170px;
+}
+
+.sum-box{
+  position: absolute;
+  background: linear-gradient(179.63deg, rgba(255, 255, 255, 0.09) 0.25%, rgba(255, 255, 255, 0) 113.78%);
+  backdrop-filter: blur(14px);
+  border-radius: 1em;
+  border: 1px solid #FFF;
+  width: 98px;
+  height: 98px;
+}
+
+.sum-box p{
+  font-size: 12px;
+}
