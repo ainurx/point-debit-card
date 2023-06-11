@@ -12,7 +12,7 @@ export default function Features(){
     <Container style={{ marginTop: '32px'}}>
       <div className='d-flex justify-content-between'>
         <h1 className='text-white' style={{ fontSize: '62px', fontFamily: 'Anton', width: '470px'}}>Best Features Provided by Point</h1>
-        <div className='d-flex'>
+        <div className='d-flex join-our'>
           <img 
           src={require('../../assets/join-us.png')} 
           alt='arrow-up'

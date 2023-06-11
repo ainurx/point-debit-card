@@ -53,6 +53,10 @@ body{
   border-radius: 50%;
 }
 
+.banner-wrapper{
+  display: flex !important;
+}
+
 .banner-title{
   width: 750px;
 }
@@ -103,24 +107,36 @@ body{
   background-image: url('./assets/cc-yellow.png');
   background-repeat: no-repeat;
   background-size: cover;
-  width: 160px;
-  height: 140px;
+  width: 180px;
+  height: 120px;
 }
 
 .blue-second-cc-bg{
   background-image: url('./assets/cc-blue-1.png');
   background-repeat: no-repeat;
   background-size: cover;
-  width: 160px;
-  height: 140px;
+  width: 180px;
+  height: 120px;
 }
 
 .red-cc-bg{
   background-image: url('./assets/cc-red.png');
   background-repeat: no-repeat;
   background-size: cover;
-  width: 160px;
-  height: 140px;
+  width: 180px;
+  height: 120px;
+}
+
+
+.join-our{
+  animation-name: example;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example{
+  from { opacity: 1;}
+  to { opacity: 0; }
 }
 
 .about-card{
@@ -160,4 +176,22 @@ body{
 
 .sum-box p{
   font-size: 12px;
+}
+
+.accordion-button::after{
+  width: 40px;
+  border-radius: 6px;
+  background-color: #F3F3F3;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #000 !important;
+  background-color: none !important;
+  box-shadow: none;
+}
+
+@media only screen and (max-width: 425px) {
+  .banner-wrapper{
+    display: block !important;
+  }
 }
